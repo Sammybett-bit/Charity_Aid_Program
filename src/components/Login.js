@@ -21,14 +21,14 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.get('https://pets-backend-nlog.onrender.com/users');
+      const response = await axios.get('https://charity-0d32.onrender.com/users');
       const users = response.data.users;
 
       const user = users.find(u => u.email === formData.email && u.password === formData.password);
 
       if (user) {
         alert('Login Successful!');
-        navigate('/shop'); // Redirect to the 'shop' page
+        navigate('/Donate'); // Redirect to the 'shop' page
       } else {
         alert('Invalid email or password');
       }

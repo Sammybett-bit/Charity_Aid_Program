@@ -30,7 +30,7 @@ const Signin = () => {
     }
 
     try {
-      const response = await axios.post('https://pets-backend-nlog.onrender.com/users', {
+      const response = await axios.post('https://charity-0d32.onrender.com/users', {
         username: formData.username,
         email: formData.email,
         password: formData.password,
