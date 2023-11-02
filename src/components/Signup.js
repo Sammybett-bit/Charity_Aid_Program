@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useNavigate } from 'react-router-dom'; 
+import Footer from './Footer';
  import './Signup.css';
 
 const Signin = () => {
@@ -105,6 +106,7 @@ const Signin = () => {
         </div>
         <button type="submit" className='btn-sign'>Signin</button>
       </form>
+      <Footer/>
     </div>
   );
 };

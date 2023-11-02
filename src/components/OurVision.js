@@ -1,5 +1,6 @@
 import React from 'react'
 import './OurVision.css'
+import Footer from './Footer'
 import images from '../images/istockphoto-640305394-170667a.webp'
 
 const OurVision = () => {
@@ -19,6 +20,7 @@ const OurVision = () => {
 
     </div>
     <img className='img-v' src={images} alt='Children in Class' />
+    <Footer/>
     </div>
   )
 }

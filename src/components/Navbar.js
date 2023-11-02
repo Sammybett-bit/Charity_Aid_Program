@@ -17,12 +17,12 @@ const Navbar = () => {
           <li><Link to ="/">Home</Link></li>
           <li><Link to ="/OurVision">Our vision</Link></li>
           <li><Link to ="/Team">Team</Link></li>
-          <li><Link to ="/Donate">Donate</Link></li>
+         
           <li><Link to ="/Login">Login</Link></li>
           <li><Link to ="/Signup">Signup</Link></li>
           </ul>
         <ul>
-          <button className='btn-donar'>Donate</button>
+        <li><Link to ="/Donate">Donate</Link></li>
         </ul>
     
       </div>

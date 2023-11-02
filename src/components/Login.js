@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import Footer from './Footer';
 import './Login.css'
 const Login = () => {
   const navigate = useNavigate();
@@ -66,6 +67,7 @@ const Login = () => {
         </div>
         <button type="submit">Login</button>
       </form>
+      <Footer />
     </div>
   );
 };
