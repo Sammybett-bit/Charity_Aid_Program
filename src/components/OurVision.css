@@ -1,0 +1,57 @@
+/* OurVision.css */
+h1{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Sometype Mono', monospace;
+    font-weight: bolder;
+}
+
+.vision {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+   }
+   
+   .vision-org {
+    max-width: 800px;
+    color: black;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: left;
+   }
+   
+   .vision-org p {
+    margin-bottom: 20px;
+   }
+   
+   .vision-org h4 {
+    margin-bottom: 5px;
+   }
+   
+   .vision-org h6 {
+    color: #666666;
+    margin-bottom: 20px;
+   }
+
+/* OurVision.css */
+.img-v {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888;
+    transition: transform 0.3s ease; 
+  }
+  
+  .img-v:hover {
+    transform: scale(1.1); 
+    box-shadow: 4px 4px 10px #888; 
+  }
+  
