@@ -29,7 +29,7 @@ const Login = () => {
 
       if (user) {
         alert('Login Successful!');
-        navigate('/Donate'); // Redirect to the 'shop' page
+        navigate('/Donate'); // 
       } else {
         alert('Invalid email or password');
       }

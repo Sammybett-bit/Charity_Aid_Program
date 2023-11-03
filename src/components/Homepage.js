@@ -34,18 +34,18 @@ const Homepage = () => {
         </div>
         <div className='imageDiv2'>
         <img src={Images3} alt="happy children" />
-        <p>"Your donations bring unbridled happiness to children's lives.
-           Every gift, no matter how small, lights up their world with laughter and hope. 
-           Your generosity nurtures their dreams and fills their hearts with joy. 
+        <p>"Your donations bring unbridled happiness to children's lives.<br></br>
+           Every gift, no matter how small, lights up their world with laughter and hope.<br></br>
+           Your generosity nurtures their dreams and fills their hearts with joy. <br></br>
            Together, we create a brighter, happier future for the youngest members of our community."</p>
            <h4>Happiness</h4>
            <h6>Sammy Kings</h6>
         </div>
         <div className='imageDiv3'>
         <img src={Images4} alt="humble kid" />
-        <p>"Children's prayers in charity are like whispers of hope. 
-          With innocence and gratitude, they ask for blessings not just for themselves, but for the world. 
-          In their sincerity, they inspire us to give with an open heart, 
+        <p>"Children's prayers in charity are like whispers of hope. <br></br>
+          With innocence and gratitude, they ask for blessings not just for themselves, but for the world. <br></br>
+          In their sincerity, they inspire us to give with an open heart, <br></br>
           knowing that our acts of kindness can answer their heartfelt wishes."</p>
           <h4>Prayers</h4>
           <h6>Fr. Peter Sila</h6>

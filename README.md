@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Charity Website README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+This README provides information about a charity website that utilizes the Charity API to access user data. The website is designed to facilitate and promote charitable activities by connecting donors, volunteers, and supporters with various charitable organizations and their initiatives.
 
-In the project directory, you can run:
+## API Information
 
-### `npm start`
+### API Base URL
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The API used for retrieving user data is available at the following base URL:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+https://charity-0d32.onrender.com
 
-### `npm test`
+### Endpoint
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The user data can be accessed via the `/users` endpoint. To retrieve user data, make GET requests to the following URL:
 
-### `npm run build`
+https://charity-0d32.onrender.com/users
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The charity website provides several features to users, which include:
 
-### `npm run eject`
+1. **Donation Platform**: Donors can browse a list of registered charitable organizations, view their missions, and make financial donations to support their causes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Volunteer Opportunities**: Volunteers can discover volunteer opportunities posted by charitable organizations and express their interest in participating.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+6. **User Dashboard**: Registered users can access a personal dashboard to keep track of their donation history, volunteer activities, and upcoming events.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## How to Use the Charity Website
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **User Registration**: Users need to create an account on the website to access its features. Registration requires providing basic personal information.
 
-## Learn More
+2. **Donations**: To make a donation, users can browse the list of charitable organizations, select a cause, and proceed with the donation process.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Sample API Requests
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To retrieve user data using the Charity API, you can use the following sample API request:
 
-### Code Splitting
+```http
+GET https://charity-0d32.onrender.com/users
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Please note that this is a public API, and you may not need to authenticate for user data retrieval. However, make sure to refer to the API documentation for any additional information or specific requirements.
+Getting Started
 
-### Analyzing the Bundle Size
+    Clone the repository for the charity website from the provided source.
+    Set up the website on a web server or development environment.
+    Configure the website to make API requests to the Charity API.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Dependencies
 
-### Making a Progressive Web App
+The charity website may have specific dependencies and requirements. Please refer to the website's documentation or the source code for information on required libraries, languages, and other technical details.
+Contact Information
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If you have any questions, encounter issues, or need further assistance, you can reach out to the website administrators through the provided contact information on the website.
 
-### Advanced Configuration
+GitHub Repository: Sammybett-bit/Charity-backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Thank you for using the charity website and supporting charitable causes!
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
