@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom'; 
+import { redirect, useNavigate } from 'react-router-dom'; 
 import Footer from './Footer';
  import './Signup.css';
 
@@ -38,8 +38,8 @@ const Signin = () => {
         phonenumber: formData.phonenumber,
       });
 
-      alert('Registration Successful!');
-      navigate('/shop'); // Redirect to the 'shop' page
+      alert('signup Successful!');
+      navigate('/login'); //redirect to login
     } catch (error) {
       console.error('Error registering user:', error);
       alert(`Error registering user: ${error.message}`);
