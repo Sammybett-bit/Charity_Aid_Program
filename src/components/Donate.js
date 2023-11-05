@@ -25,7 +25,7 @@ const Donation = () => {
       donationAmount: donationAmount,
     };
 
-    fetch('https://charity-0d32.onrender.com/users', {
+    fetch('https://charity-0d32.onrender.com/donate', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
