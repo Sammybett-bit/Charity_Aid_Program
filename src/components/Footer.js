@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faFacebook, faTiktok, faTwitter } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faInstagram, faFacebook, faTiktok, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   const footerStyle = {
@@ -34,12 +34,12 @@ function Footer() {
       <p style={copyrightStyle}>&copy; 2023 Doggybnb Platform. All rights reserved.</p>
       <p style={contactStyle}>Contacts: +254 711223344 | City: Nairobi | Street: 00100 Moi Avenue</p>
       
-      <div style={socialIconsStyle}>
+      {/* <div style={socialIconsStyle}>
         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} style={{ color: 'white', margin: '10px' }} /></a>
         <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTiktok} style={{ color: 'white', margin: '10px' }} /></a>
         <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} style={{ color: 'white', margin: '10px' }} /></a>
         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} style={{ color: 'white', margin: '10px' }} /></a>
-      </div>
+      </div> */}
     </footer>
   );
 }
