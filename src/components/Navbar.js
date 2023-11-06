@@ -19,7 +19,7 @@ const Navbar = () => {
           <li><Link to ="/Team">Team</Link></li>
           <li><Link to ="/Login">Login</Link></li>
           <li><Link to ="/Signup">Signup</Link></li>
-          <li className='listd'><Link to ="/Donate">Donate</Link></li>
+          <li><Link to ="/Donate">Donate</Link></li>
           </ul>
 
     
