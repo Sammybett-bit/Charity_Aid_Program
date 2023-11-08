@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import './Donation.css';
 
 const Donation = () => {
   const [selectedOption, setSelectedOption] = useState('food');
@@ -46,11 +47,15 @@ const Donation = () => {
   };
 
   return (
-    <div>
+    <div className="donation-form">
       <h2>Donate Now</h2>
-      {errorMessage && <p>{errorMessage}</p>}
+      {errorMessage && <p className="error-message">{errorMessage}</p>}
       <label>Select Donation Option:</label>
-      <select value={selectedOption} onChange={handleOptionChange}>
+      <select
+        className="donation-select"
+        value={selectedOption}
+        onChange={handleOptionChange}
+      >
         <option value="food">Food</option>
         <option value="clothing">Clothing</option>
         <option value="fees">Fees</option>
@@ -59,15 +64,30 @@ const Donation = () => {
         <option value="others">Others</option>
       </select>
 
-      <label>Phone Number:</label>
-      <input type="text" value={phoneNumber} onChange={handlePhoneNumberChange} />
-
       <label>Donation Amount:</label>
-      <input type="text" value={donationAmount} onChange={handleDonationAmountChange} />
+      <input
+        className="donation-input"
+        type="number"
+        value={donationAmount}
+        onChange={handleDonationAmountChange}
+        placeholder="Enter donation amount"
+      />
 
-      <button onClick={handleDonation}>Submit Donation</button>
+      <label>Phone Number:</label>
+      <input
+        className="donation-input"
+        type="text"
+        value={phoneNumber}
+        onChange={handlePhoneNumberChange}
+        placeholder="Enter your phone number"
+      />
+
+      <button className="donation-button" onClick={handleDonation}>
+        Donate
+      </button>
     </div>
   );
 };
 
 export default Donation;
+
