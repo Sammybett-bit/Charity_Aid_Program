@@ -28,10 +28,10 @@ const Donation = () => {
     };
 
     try {
-      const response = await axios.post('https://charity-0d32.onrender.com/donations', donationData, {
-        headers: {
-          'Content-Type': 'application/json',
-        },
+      const response = await axios.post('https://charity-0d32.onrender.com/donations', {
+        option: formData.option,
+        donationAmount: formData.donationAmount,
+        phonenumber: formData.phonenumber,
       });
 
       if (response.status === 201) {
